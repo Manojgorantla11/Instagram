@@ -1,0 +1,83 @@
+html, body {
+    margin: 0px auto;
+    width: 375px;
+    font-family: Source Sans 3, sans-serif;
+}
+
+#header{
+    border-bottom: 1px solid grey;
+    padding: 5px 0;
+    margin: 5px ;
+}
+
+.logo{
+    width: 122px;
+    height: 37px;
+}
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    float: right;
+}
+#main{
+    margin-top: 10px;
+    border-bottom:whitesmoke solid 30px;
+}
+.dp{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+display-name{
+    display: flex;
+    margin-left: 51px;
+    margin-top: 17px;
+    margin-bottom: 0px;  
+}
+
+h4{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px
+}
+h6{
+    font-size: 12px;
+    font-weight: 400;
+     margin: 0px
+}
+
+.post{
+    width: 375px;
+    height: 375px;
+    margin: 10px 0px;
+}
+
+.share img{
+    
+    display: inline;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 23px;
+    height: 23px;
+}
+
+.likes-count{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+#main p{
+    font-size: 13px;
+    font-weight: 400;
+    font-style: Source Sans 3, sans-serif;;
+}
+
+.share:hover{
+    opacity: 0.5;
+}
